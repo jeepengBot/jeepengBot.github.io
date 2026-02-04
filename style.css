@@ -448,6 +448,18 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.op-link {
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: 1px solid var(--chrome-mid);
+    transition: all 0.3s ease;
+}
+
+.op-link:hover {
+    color: var(--chrome-mid);
+    border-bottom-color: var(--white);
+}
+
 .op-desc {
     font-family: 'Rajdhani', sans-serif;
     font-size: 0.95rem;
